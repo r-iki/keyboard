@@ -21,10 +21,8 @@ This extension adds a  aksara sunda  keyboard layout to Chrome OS.
 A new icon should appear in the status bar of Chrome OS indicating which
 keyboard layout is active. The default for "SU Keyboard" will display as "SU".
 Type `Shift+Ctrl+Space` to cycle through the available language and layout
-options. The Lushootseed layout should be shown as "EN" though other layouts
-also using the English layout will look that way as well.
+options. The Aksara sunda layout should be shown as "SU". 
 
 Click the icon for a pop-up which will show all available layouts and which
 is currently active. You may change layouts this way as well.
 
-Layout by Dave Sienko (https://www.tulaliplushootseed.com)
