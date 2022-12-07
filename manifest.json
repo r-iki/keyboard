@@ -1,0 +1,27 @@
+{
+  "name": "ᮃᮊ᮪ᮞᮛ ᮞᮥᮔ᮪ᮓ- ᮞᮎᮛᮤᮾ",
+  "version": "1.0.1",
+  "manifest_version": 3,
+  "description": "ᮔᮥᮜᮤᮞ ᮃᮊ᮪ᮞᮛ ᮞᮥᮔ᮪ᮓ ᮓᮤ ᮎᮂᮛᮧᮙᮦ ᮘᮧᮧᮊ, write script sundanese on a chrome os.",
+  "background": {
+    "service_worker":"background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "Aksara sunda (ᮃ)",
+      "type": "ime",
+      "id": "AkSunda",
+      "description": "ᮃᮊ᮪ᮞᮛ ᮞᮥᮔ᮪ᮓ",
+      "language": "su-ID",
+      "layouts": ["us"]
+    }
+  ]
+}
